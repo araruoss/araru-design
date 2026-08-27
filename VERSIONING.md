@@ -4,6 +4,12 @@ Araru Design uses [Semantic Versioning](https://semver.org/) and follows [Conven
 
 Release Please opens a release pull request when releasable commits reach `main`. Merging that pull request updates `CHANGELOG.md`, creates the Git tag `vX.Y.Z` and publishes the corresponding GitHub Release.
 
+## GitHub Actions permissions
+
+The repository must allow GitHub Actions to create pull requests. In GitHub, open **Settings → Actions → General → Workflow permissions**, enable **Read and write permissions**, and enable **Allow GitHub Actions to create and approve pull requests**.
+
+If organization policy does not allow that setting, create a fine-grained token with repository Contents and Pull requests write access, save it as the repository secret `RELEASE_PLEASE_TOKEN`, and the workflow will use it automatically.
+
 ## Commit types
 
 - `feat`: new foundation, token, component contract or pattern; minor release.

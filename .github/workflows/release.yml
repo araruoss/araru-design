@@ -19,5 +19,8 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
+          # Use RELEASE_PLEASE_TOKEN when repository policy blocks GITHUB_TOKEN
+          # from creating pull requests. Otherwise the built-in token is enough.
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN || github.token }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
