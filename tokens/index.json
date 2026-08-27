@@ -1,0 +1,1 @@
+{ "$description": "Semantic token entry point. Values are illustrative until platform implementations consume them.", "files": ["color.json", "typography.json", "spacing.json", "radius.json", "elevation.json", "motion.json", "breakpoints.json"] }

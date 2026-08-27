@@ -1,0 +1,7 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "light": { "background": "#F7F6F2", "surface": "#FFFFFF", "surface-raised": "#FCFBF8", "surface-overlay": "#1F2421", "text-primary": "#202421", "text-secondary": "#59615B", "text-muted": "#747D76", "text-disabled": "#A9B0AB", "border": "#DDE1DC", "border-subtle": "#ECEEEA", "border-strong": "#AAB3AC", "accent": "#B34A3D", "accent-hover": "#963D33", "accent-active": "#7B3028", "success": "#317A55", "warning": "#9A681C", "danger": "#B13B42", "info": "#356D86" },
+    "dark": { "background": "#171A18", "surface": "#202521", "surface-raised": "#29302B", "surface-overlay": "#F7F6F2", "text-primary": "#F4F3EE", "text-secondary": "#C2C9C2", "text-muted": "#98A29A", "text-disabled": "#667069", "border": "#414A43", "border-subtle": "#303832", "border-strong": "#68746B", "accent": "#E47C68", "accent-hover": "#F0927E", "accent-active": "#FFAC97", "success": "#72C596", "warning": "#D9AA58", "danger": "#F08086", "info": "#7FB4CC" }
+  }
+}
