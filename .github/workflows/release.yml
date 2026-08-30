@@ -21,6 +21,9 @@ jobs:
         with:
           # Use RELEASE_PLEASE_TOKEN when repository policy blocks GITHUB_TOKEN
           # from creating pull requests. Otherwise the built-in token is enough.
+          # If the action still reports a PR permission error, enable
+          # "Allow GitHub Actions to create and approve pull requests" in the
+          # repository Actions settings or configure that secret.
           token: ${{ secrets.RELEASE_PLEASE_TOKEN || github.token }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
